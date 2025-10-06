@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 500px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form select, form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+#quizContainer {
+  margin-top: 10px;
+}
+
+.question {
+  margin-bottom: 15px;
+}
+
+.answers button {
+  display: block;
+  margin: 5px 0;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #007BFF;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.answers button.correct {
+  background-color: #28a745;
+  color: white;
+}
+
+.answers button.wrong {
+  background-color: #dc3545;
+  color: white;
+}
+
+#score {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
